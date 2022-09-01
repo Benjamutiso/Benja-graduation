@@ -1,0 +1,23 @@
+/*  */
+/* top bar stylings */
+.top-bar h3{
+    color: rgb(221, 15, 204);
+    font-weight: 500;
+}
+.top-bar a{
+    color: purple;
+}
+.top-bar a:hover{
+    color: red;
+}
+/* top bar stylings */
+
+/* slider images */
+.main-slider img{
+    height: 70vh;
+}
+.main-slider .carousel-caption{
+    background: rgb(220,241,8);
+    background: linear-gradient(90deg, rgba(220,241,8,0.8687850140056023) 0%, rgba(233,17,58,1) 50%, rgba(18,3,6,0.8211659663865546) 100%);
+}
+/* slider images */
