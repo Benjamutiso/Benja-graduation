@@ -1,4 +1,16 @@
 /*  */
+.btn-custom{
+    background-color: #ff0000;
+    color: #ffffff;
+    font-weight: 500;
+    border-radius: 0px!important;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.btn-custom:hover{
+background-color: #ff0a90;
+color: #ffffff;
+}
 /* top bar stylings */
 .top-bar h3{
     color: rgb(221, 15, 204);
@@ -21,3 +33,40 @@
     background: linear-gradient(90deg, rgba(220,241,8,0.8687850140056023) 0%, rgba(233,17,58,1) 50%, rgba(18,3,6,0.8211659663865546) 100%);
 }
 /* slider images */
+
+/* program styling */
+.program img{
+height: 300px;
+opacity: .9;
+}
+.program .card:hover img{
+    opacity: 1;
+}
+.program .card:hover .card-body{
+    background-color: red;
+    color: #faebd7;
+    transition: .7s ease-in-out;
+}
+/* program styling */
+
+/*pricing stylings */
+.pricing{
+    /* padding-top: 100px;
+    padding-bottom: 100px; */
+    background: linear-gradient(45deg, #ff0a533b, #da8bac, #4f77a0), url('./images/5.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.pricing .card{
+    border-top: 5px solid #ff0a90;
+}
+.pricing .card .recommend{
+    background-color: #00ff55;
+    color: white;
+}
+.pricing .card .recommend .btn-custom{
+    background-color: #ffffff;
+    color: #0aff84;
+}
+/*pricing stylings */
